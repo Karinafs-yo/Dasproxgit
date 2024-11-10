@@ -7,7 +7,7 @@ username = "Daspro2023"
 password = "Latihan"
 
 # Fungsi login
-def login():
+def Masuk():
     print("Selamat datang di menu Login")
     attempts = 3 # Maksimal 3 kesempatan untuk password
 
@@ -25,4 +25,4 @@ def login():
     return False  # Login gagal
 
 # Menjalankan fungsi login
-login()
+Masuk()
