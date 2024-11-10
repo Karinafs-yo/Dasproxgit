@@ -4,6 +4,6 @@
 x= int(input('Input nilai UAS: '))
 #kasih pernyataan if else
 if(x >= 60):
-    print("Lulus")
+    print("Tidak Remedial")
 else:
-    print("Tidak lulus")
+    print("Remedial")
